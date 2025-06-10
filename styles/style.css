@@ -1,0 +1,68 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+   color: brown; 
+   text-decoration: none;
+}
+
+.box {
+    background: #ccc;
+} 
+
+.holder {
+    font-size: 20px;
+}
+
+.holder h2 {
+    color: #f00;
+}
+
+.title {
+    color: rgb(82, 165, 34);
+    font-size: 15px;
+}
+
+.box h2 {
+    font-style: italic;
+}
+
+#danger {
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(214, 21, 185);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li+li {
+    color: #f00;
+}
+
+/* li+li::before {
+    content: "*";
+    display: inline-block;
+}  */
+
+h2+p {
+    font-weight: bold;
+}
+
+.input {
+    border-color: #000 !important;
+}
+
+#main>div {
+    border: 2px solid #f00;
+}
+
